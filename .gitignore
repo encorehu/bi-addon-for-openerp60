@@ -1,4 +1,14 @@
 *.py[cod]
+*.pyc
+*.psd
+*.db
+*.prj
+*.exe
+*.log
+*.cmd
+*.reg
+*.pui
+
 
 # C extensions
 *.so

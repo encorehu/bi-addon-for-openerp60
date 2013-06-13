@@ -1,0 +1,38 @@
+tr.formats_head
+{
+    height: 20px;
+    background: #E0E0E0;
+
+}
+table.mdx_table
+{
+    margin: 2px 2px 2px 2px;
+    width:auto;
+}
+.mdx_header
+{
+    background: #E0E0E0;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.mdx_body
+{
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+.mdx_element
+{
+    vertical-align:middle;
+    text-align:left;
+}
+.mdx_data
+{
+    vertical-align:middle;
+    text-align:right;
+}

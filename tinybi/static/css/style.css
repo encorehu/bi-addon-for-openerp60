@@ -1,0 +1,1546 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family:"Trebuchet MS";
+}
+
+body,table
+{
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #990000;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #690000;
+}
+
+a.imglink
+{
+    text-decoration: none;
+}
+
+a:hover .imglink
+{
+    border: none;
+}
+
+hr
+{
+    border: 0px;
+    background-color: #888;
+    height: 1px;
+}
+
+input,select,textarea
+{
+    background-color: white;
+    border: 1px solid #999999;
+}
+
+input:focus,select:focus,textarea:focus
+{
+    border-color: #990033;
+}
+
+input.checkbox,input.radio
+{
+    background-color: transparent;
+    border: none;
+    margin: 0px;
+}
+
+button
+{
+    border: solid 1px #888888;
+    background: #999;
+    padding: 0px 3px;
+    background: url(/tinybi/static/images/button_bg.png) repeat-x left top;
+    font-size: 11px;
+    width: 130px;
+    white-space: nowrap;
+}
+
+button:hover
+{
+    background: url(/tinybi/static/images/button_bg2.png) repeat-x left top;
+}
+
+button.inactive
+{
+    background: #eeeeee;
+    border: solid 1px #888888;
+    color: #999999;
+}
+
+#container
+{
+    margin: auto;
+    width: 100%;
+}
+
+.comboformat
+{
+    border: 1px solid #999999;
+    background: #DFDFDF;
+    height: 24px;
+}
+
+.commonheader
+{
+    border: 0px solid #999999;
+    background: #DFDFDF url(/tinybi/static/images/button_bg2.png) repeat-x top left;
+    height: 24px;
+}
+
+td.adddim
+{
+    border: 2px dotted silver;
+    padding:5px;
+    width: 400px;
+    height: 150px;
+    text-align: justify;
+    vertical-align: text-top;
+}
+
+td.cube_dissect_css
+{
+    vertical-align: top;
+    width: 20%;
+    height: 410px;
+    background: #FFFFFF url(/tinybi/static/images/button_bg2.png) repeat-x top left;
+}
+/* ---------- Header ----------- */
+table.header
+{
+    background: url(/tinybi/static/images/grdheader.gif) repeat-x left top;
+    width: 100%;
+}
+
+table.menu_connection
+{
+    padding: 0px;
+    border: 0px;
+    height: 25px;
+    white-space: nowrap;
+}
+
+table.menu_connection td.menu_connection_welcome
+{
+    background: #363636;
+    padding-left: 10px;
+    padding-right: 18px;
+    color: white;
+}
+
+table.menu_connection td.menu_connection_links
+{
+    background: url() repeat-x;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+table.menu_connection a
+{
+    color: white;
+    padding: 0 2px;
+}
+
+table.menu_connection a:hover
+{
+    color: white;
+}
+
+#menu_header
+{
+    background: #666666;
+    margin-bottom: 4px;
+    height: 25px;
+    white-space: nowrap;
+}
+
+#menu_header_menu
+{
+    background: url(/tinybi/static/images/mainmenu_button.png) repeat-x;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+#menu_header_shortcuts
+{
+    background: #363636;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 0px;
+    font-weight: bold;
+}
+
+#menu_header a
+{
+    color: white;
+}
+
+/*------------------ Header End ---------------*/
+
+/* ----------------- Navigation -------------- */
+
+span.disabled_text
+{
+    color: gray;
+}
+
+
+/* ------------------- Footer --------------- */
+#footer
+{
+    clear: both;
+    padding: 5px;
+    text-align: center;
+    font-size: 11px;
+    color: #777777;
+    line-height: 20px;
+}
+
+#footer a
+{
+    color: #777777;
+    text-decoration: underline;
+}
+
+div.button_right
+{
+    position: relative;
+    float: right;
+}
+
+div#tab_content
+{
+    background: #fbfbfb;
+    display: block;
+    border-bottom: 1px solid #bbb8a9;
+    padding: 5px;
+}
+
+/*------------------------------------------------------------------*/
+div.vline
+{
+    background-color: #C3D9FF;
+    width: 1px;
+    height: 100%;
+}
+
+div.scrollbox
+{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+div.box,div.box2
+{
+    background-color: #e0e0e0;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+div.box
+{
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+}
+
+div.box2
+{
+    padding: 10px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.box2 button
+{
+    margin: 0px 2px;
+}
+
+td.errorbox
+{
+    padding: 10px;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+td.welcome
+{
+    text-align: center;
+    color: #990033;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.message
+{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+
+div.welcome
+{
+    text-align: center;
+    color: #990033;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* view style */
+.view
+{
+    width: 100%;
+}
+
+.view .spacer
+{
+    width: 4px;
+    height: 4px;
+}
+
+.view .titlebar
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #950000;
+    border-bottom: 1px solid #363636;
+    margin-bottom: 4px;
+}
+
+.view .titlebar button
+{
+    width: auto;
+    margin: 0 1px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.view .title
+{
+    background: url(/tinybi/static/images/grdline1.gif) repeat-x left top;
+    border-top: 1px solid #E3E3E3;
+    height: 20px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.view .toolbar
+{
+    background-color: #e0e0e0;
+    border-top: 1px solid #bbb8a9;
+    border-bottom: 1px solid #bbb8a9;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.view .toolbar button
+{
+    width: auto;
+    margin: 0 1px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.view .toolbar img,
+.view .titlebar img
+{
+    border: none;
+    margin: 0 1px;
+    vertical-align: middle;
+}
+.view .toolbar img.button,
+.view .titlebar img.button
+{
+    cursor: pointer;
+}
+
+.view .fields
+{
+}
+
+.view table.one2many
+{
+    border-bottom: 1px solid #bbb8a9;
+}
+
+td.label
+{
+    padding: 0 4px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+td.item input,td.item select,td.item textarea,td.item button
+{
+    width: 99%;
+}
+
+td.item .mceSelectList
+{
+    width: auto;
+}
+
+td.item .checkbox,td.item .radio
+{
+    width: auto;
+}
+
+#view_form .translatable
+{
+    background: url("/tinybi/static/images/translate.gif") no-repeat right center;
+}
+
+#view_form .fielderror
+{
+    color: #FF0000;
+}
+
+#view_form .requiredfield
+{
+    background-color: #CCD9FF;
+}
+
+#view_form .errorfield
+{
+    background-color: #FF6666;
+}
+
+#view_form .readonlyfield
+{
+    background-color: #EEEEEE;
+}
+
+/* treebar */
+.treebar
+{
+    padding-right: 5px;
+    width: 100px;
+}
+
+.treebar .row
+{
+    cursor: pointer;
+}
+
+.treesep
+{
+
+}
+
+/* ----------------- Side bar ----------------- */
+#sidebar
+{
+}
+
+#sidebar .sidebox
+{
+    margin-bottom: 4px;
+}
+
+#sidebar table
+{
+    padding: 0;
+    white-space: nowrap;
+}
+
+#sidebar td
+{
+    height: 25px;
+}
+
+#sidebar a
+{
+    background: url(/tinybi/static/images/sidebar_button_bg.png) no-repeat;
+    background-color: #dadada;
+    border-top: 1.5px solid white;
+    display: block;
+    vertical-align: middle;
+    font-size: 11px;
+    font-weight: bold;
+    color: #444;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 4px;
+    height: 20px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#sidebar a:hover
+{
+    background-position: 0px -25px;
+    border-top: 1.5px solid #a6a6a6;
+    text-decoration: none;
+    color: #902D2D;
+}
+/* ------------- End side bar ------- */
+
+#status_block
+{
+    margin: 0 auto 0.5em auto;
+    padding: 15px 10px 15px 55px;
+    border: 1px solid red;
+    width: 450px;
+    font-size: 120%;
+    font-weight: bolder;
+    color : red;
+    text-align : center;
+}
+/*-------------Table-------------------*/
+table.dyt
+{
+    text-align: center;
+    font-family: "Trebuchet MS" ;
+    font-weight: normal;
+    font-size: 11px;
+    color: #fff;
+    width: 280px;
+    background-color: #666;
+    border: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+table.stats
+{
+}
+table.stats tr.head
+{
+    background-color: #f6f6f6;
+    color: #000;
+    padding: 2px;
+    text-align: left;
+    border-bottom: 2px #fff solid;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+table.stats tr.evenRow
+{
+    background-color: #CCC;
+    color: #000;
+    padding: 2px;
+    text-align: left;
+    border: 1px #fff;
+}
+
+table.stats tr.oddRow
+{
+    background-color: #FFF;
+    color: #000;
+    padding: 2px;
+    text-align: left;
+    border: 1px #fff;
+}
+
+table.stats td.hedrow
+{
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: visible;
+    width: auto;
+    height: 12px;
+    padding-right: 13px;
+}
+
+table.stats td.hedcol
+{
+    background-color: #ffffff;
+    border-right: 0px #59E817 solid;
+    color: #000;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+table.stats td.dropele
+{
+    background-color: #59E817;
+    border: 1px #000000 solid;
+    height: 8px;
+    width: 6px;
+    padding : 2px;
+}
+
+table.stats td.drop1strow
+{
+    background-color: #FFC4CD;
+    border: 1px #000000 solid;
+    padding:2px;
+    height: 20px;
+    width: 14px
+
+}
+
+table.stats td.dropdim
+{
+    background-color: #ADD8E6;
+    border: 1px #000000 solid;
+    height: 17px;
+    width: 50px;
+    padding : 2px;
+}
+
+table.stats td.drop3rddim
+{
+    background-color: #ADD8E6;
+    border: 1px #000000 solid;
+    height: 17px;
+    width: 50px;
+    padding : 2px;
+}
+
+table.stats td.fake3rddim
+{
+    background-color: #ffffff;
+    height: 17px;
+    width: 50px;
+    padding : 2px;
+}
+
+table.stats td.drop1stcol
+{
+    background-color: #FFC4CD;
+    border: 1px #000000 solid;
+    height: 17px;
+    width: 50px;
+}
+
+table.stats td.readytocatch
+{
+    background-color: blue;
+    border:2px #000000 solid;
+    padding : 1px;
+}
+
+table.stats td.drop3rdaxis
+{
+    background-color: #ADD8E6;
+    border: 1px #000000 solid;
+    height: 17px;
+    width: 50px;
+    padding : 2px;
+}
+/*=========================*/
+.tabberlive .tabbertabhide
+{
+    display:none;
+}
+
+.tabberlive .tabbertab
+{
+    background:#FBFBFB none repeat scroll 0%;
+    border: 1px solid #bbb8a9;
+    border-top: none;
+    padding: 4px;
+}
+
+.tabberlive .tabbertab h2
+{
+    display:none;
+}
+.tabberlive .tabbertab h3
+{
+    display:none;
+}
+
+dl.tabbernav
+{
+    list-style: none;
+    padding-left: 10px;
+  //  padding-bottom: 10px;
+ //   border-bottom: 1px solid #bbb8a9;
+    margin:0;
+  //  height: 11px;
+}
+
+dl.tabbernav dd
+{
+    float: left;
+    display: block;
+    position: relative;
+    height: 21px;
+    padding-right: 22px;
+    margin-left: -10px;
+    background: url(/static/images/tabs_right_inactive.gif) 100% 0 no-repeat;
+    white-space: nowrap;
+}
+
+dl.tabbernav dd a
+{
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 8px;
+    display:block;
+    background: url(/static/images/tabs_left_inactive.gif) no-repeat;
+    position: relative;
+}
+
+dl.tabbernav dd.tabberactive
+{
+    z-index: 1;
+    height: 22px;
+    background-image: url(/static/images/tabs_right_active.gif);
+}
+
+dl.tabbernav dd.tabberactive a
+{
+    background-image: url(/static/images/tabs_left_active.gif);
+    height: 22px;
+    line-height: 22px;
+}
+
+dl.tabbernav dd a
+{
+    color: #222;
+}
+
+dl.tabbernav dd a:hover
+{
+    border: none;
+}
+
+/*
+#tablist .on a {
+    background-image: url(/static/images/tabs_left_active.gif);
+    height: 22px;
+    line-height: 22px;
+}
+
+#tablist ul li {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+}
+
+ #tablist .off a {
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    padding-left: 8px;
+    display:block;
+    background: url(/static/images/tabs_left_inactive.gif) no-repeat;
+    position: relative;
+}
+
+#tablist a:hover {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 4px 6px;
+    color: #006699;
+    text-decoration: none;
+    border: 1px solid #5EB6E7;
+    border-bottom:  1px solid #F9F6DD;
+    background: #FFFFFF url(/tinybi/static/images/button_bg2.png) repeat-x top left;
+
+}
+*/
+.scopebox
+{
+    padding:0; float:left; font-weight:normal;
+    margin-bottom:20px; clear:both; text-align:left; margin-left:10px; height:600px;
+}
+
+.scopeboxMain
+{
+    padding:0; float:left; font-weight:normal;
+    clear:both; text-align:left;width:100%;
+}
+
+.overviewSign
+{
+    text-align:left; text-transform: capitalize; width: 366px; float:right; margin-top: 18px;
+    /*position:relative;position: relative;clear:both;
+    left: -100px; float: left;*/
+}
+.c-main
+{
+    position:relative;
+    float:left;
+    /* margin-left:110px;color: #006699;margin-top:6px; border-top: none;*/
+    margin-top: -1px;
+    font-size: 12px;
+    font-weight: bold;height: auto;
+     width: 100%; font-family:Arial;
+    padding:0;
+     border: 1px solid #bbb8a9;
+    /*  background: #F0F0F0;*/
+}
+
+
+/* Tree CSS*/
+
+div.tree_t
+{
+    background-color: white;
+    padding : 1px;
+
+}
+
+div.tree_t_off:hover {
+    background-color: #F3F3F3;
+    border: 1px solid #E3E3E3;
+    padding: 0px;
+}
+
+div.nonode {
+    background: url("") no-repeat top left;
+    padding-left : 17px;
+    padding-bottom: 4px;
+}
+
+div.loading {
+    background: url("/tinybi/static/images/tree_img/loading.gif") no-repeat top left;
+    padding-left : 17px;
+    padding-bottom: 4px;
+}
+/*
+.collapse{
+    background: url("/tinybi/static/images/tree_img/collapse.gif") no-repeat top left;
+    padding-left : 17px;
+    padding-bottom: 4px;
+}
+
+.collapse:hover{
+    background-image: url("/tinybi/static/images/tree_img/collapseh.gif");
+    padding-left : 17px;
+    padding-bottom: 4px;
+}
+
+.expand{
+    background: url("/tinybi/static/images/tree_img/expand.gif") no-repeat top left;
+    padding-left : 17px;
+    padding-bottom: 4px;
+}
+
+.expand:hover{
+    background-image: url("/tinybi/static/images/tree_img/expandh.gif");
+    padding-left : 17px;
+    padding-bottom: 4px;
+}
+*/
+
+/*   DnD CSS */
+td.first_drop_here
+{
+    background: #FFFFFF url(/tinybi/static/images/drop.png) no-repeat bottom center;
+    width: 80px;
+    height: 120px;
+}
+td.firstDropped
+{
+    clear:both;
+    background: #BCEE68;
+    border:1px solid #6E8B3D;
+    width:500px;
+}
+
+div.AxisCollector
+{
+    clear:both;
+    border:1px solid #E8A400;
+    background-color:white;
+    width:500px;
+}
+
+div.ac
+{
+    clear:both;
+    border-right: 10px #2A4D89 solid;
+    background-color:white;
+    width:500px;
+}
+
+td.AxisCollector-active_row
+{
+    border-bottom: 10px #2A4D89 solid;
+    background-color:white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+td.AxisCollector-active_col
+{
+    border-right: 10px #2A4D89 solid;
+    background-color:white;
+    font-size: 12px;
+    font-weight: bold;
+}
+td.droppableRow
+{
+    border-right: 2px #6f6f6f solid;
+}
+
+td.droppableRow:hover
+{
+    border-bottom: 2px #2A4D89 solid;
+
+}
+
+div.dropp
+{
+    clear:both;
+    background-color:green;
+    width:500px;
+    padding: 1px;
+}
+
+div.dropped
+{
+    clear:both;
+    background-color:red;
+    border:1px solid #000000;
+    width:500px;
+}
+
+div.dropp:hover
+{
+    clear:both;
+    border:1px solid #000000;
+    background-color:white;
+    width:500px;
+    padding: 0px;
+}
+
+table.disptable
+{
+    border: 1px;
+}
+
+.nondraggables
+{
+    padding-left: 17px;
+    padding-right : 0px;
+    padding-top : 2px;
+    padding-bottom: 2px;
+    background: url("/tinybi/static/images/tree_img/text.gif") no-repeat center  left;
+    vertical-align:  middle;
+
+}
+
+.cubedraggables
+{
+
+}
+
+.slicer
+{
+    background: url("/tinybi/static/images/find.gif") no-repeat center right;
+    padding-right:17px;
+    display:inline;
+
+}
+
+/*==========border: 6px;
+border-right-color: #59E817;===========*/
+
+
+.headrow
+{
+    font-family : "Trebuchet MS";
+    text-align: left;
+    vertical-align:top;
+    font-size: 12px;
+    font-weight: bold;
+    /*overflow: scroll;*/
+    /*width: inherit;*/
+    height: 12px; 
+    background-color:#e0e0e0;
+}
+
+table.stats td.headcol
+{
+    font-family: "Trebuchet MS";
+    background-color: #fff;
+    color: #000;
+    padding: 2px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dropeleCol
+{
+    font-family: "Trebuchet MS";
+    background-color: #e0e0e0;
+    border:1px solid #e0e0e0;
+    /*height: 100%; */
+    padding-right: 6px;
+}
+
+.dropeleCol_ch_page
+{
+    font-family: "Trebuchet MS";
+    background-color: #e0e0e0;
+    border:1px solid #e0e0e0;
+    /*height: 100%; */
+    padding-right: 6px;
+}
+
+.dropeleCol:hover
+{
+    font-family: "Trebuchet MS";
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    /*height: 100%; */
+    padding-right: 6px;
+}
+
+.dropeleRowextra
+{
+    background-color: #e0e0e0;
+    border:1px solid #e0e0e0;
+    border-right:1px solid #e0e0e0;
+    padding-bottom: 6px;
+    width:99%;
+}
+.dropeleRowextra:hover
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    padding-bottom: 6px;
+    width:99%;
+}
+
+
+.dropeleColextra
+{
+    background-color: #e0e0e0;
+    border:1px solid #e0e0e0;
+/*    border:1px solid #b6b6b6;*/
+    border-bottom:1px solid #B6B6B6;
+    /* height: 100%;*/ 
+    padding-right: 6px;
+}
+.dropeleColextra:hover
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    /* height: 20px; */
+    padding-right: 6px;
+}
+.nodropeleCol
+{
+    background-color: #e0e0e0;
+    border: 0px #000000 solid;
+    height: 14px;
+    padding : 1px;
+    padding-right: 10px;
+}
+
+.dropeleRow
+{
+    background-color: #e0e0e0;
+    border:1px solid #e0e0e0;
+    padding-bottom: 6px;
+    width: 100%;
+}
+.dropeleRow:hover
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    padding-bottom: 6px;
+    width: 99%;
+}
+.crossRow
+{
+    background-color: white;
+    padding-bottom: 9px;
+    width: 100%;
+}
+.data
+{
+    background-color: yellow;
+    border-left:1px solid #d6d6d6;
+    padding-right:6px;
+}
+
+
+.ready_catchrow
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    padding-bottom: 6px;
+}
+
+.ready_catchcol
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    border: 1px #000000 solid;
+}
+
+.partdropeleRow
+{
+    vertical-align: top;
+}
+
+.nodropeleRow
+{
+    padding-bottom: 7px;
+
+}
+
+.cross_child {
+	background-color: #E0E0E0;
+    border: 1px #E0E0E0 solid;
+    padding:2px;
+    height: 14px;
+    width: 14px;
+}
+.cross
+{
+     background-color: #FFFFFF;
+     border: 1px #FFFFFF solid;
+     padding:2px;
+     height: 14px;
+     width: 14px;
+}
+.cross:hover
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    height: 14px;
+    display: table-cell;
+}
+.FirstNewAxis {
+    background-color: #FFC0CB;
+    border:1px solid #EE799F;
+    height: 14px;
+    display: table-cell;
+}
+
+.FirstNewAxis: hover
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    height: 14px;
+    display: table-cell;
+}
+
+.NewAxis
+{
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    height: 6px;
+    display: table-cell;
+}
+.NewAxis:hover
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    height: 14px;
+    display: inline;
+}
+
+.NewAxisHover
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    height: 14px;
+    display: inline;
+}
+
+
+.thirdNewAxis
+{
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF solid;
+    height: 14px;
+}
+
+.thirdNewAxis:hover
+{
+    background-color: #BCEE68;
+    border:1px solid #6E8B3D;
+    height: 14px;
+}
+
+.thirdAxisPage {
+    background-color: #BCEE66;
+    border:1px solid #6E8B3D;
+    height: 14px;
+
+}
+
+.drilled
+{
+    background: #e0e0e0 url("/tinybi/static/images/tree_img/collapse.gif") no-repeat center left;
+    white-space: nowrap;
+    padding-left: 18px;
+    font-family:"Trebuchet MS";
+
+}
+
+.drilled:hover
+{
+    background: #e0e0e0 url("/tinybi/static/images/tree_img/collapseh.gif") no-repeat center left;
+    white-space: nowrap;
+    padding-left: 18px;
+    font-family:"Trebuchet MS";
+
+}
+
+.notdrilled
+{
+    background: #e0e0e0 url("/tinybi/static/images/tree_img/expand.gif") no-repeat center left;
+    white-space: nowrap;
+    padding-left: 18px;
+    font-family:"Trebuchet MS";
+
+}
+
+.notdrilled:hover
+{
+    background: #e0e0e0 url("/tinybi/static/images/tree_img/expandh.gif") no-repeat center left;
+    white-space: nowrap;
+    padding-left: 18px;
+    font-family:"Trebuchet MS";
+
+}
+
+.mdx_data
+{
+    background: #FFFFF2 url("") no-repeat center left;
+    
+    white-space: nowrap;
+}
+
+.data
+{
+    background:#FFFFF2 none repeat scroll 0 0;
+    border-top:1px solid #d6d6d6;
+    padding-right:6px;
+    clear:both;
+    vertical-align:bottom;
+    font-family:"Trebuchet MS";
+}
+.undrilled
+{
+    background: #e0e0e0 url("") no-repeat center left;
+    padding-left: 5px;
+    white-space: nowrap;
+    font-family:"Trebuchet MS";
+}
+
+.swap_d
+{
+    vertical-align: bottom;
+    background: #e0e0e0 url("") no-repeat center left;
+
+}
+
+.drilledhead
+{
+    background: #e0e0e0 url("/tinybi/static/images/tree_img/minus.gif") no-repeat top left;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-left: 15px;
+    font-family:"Trebuchet MS";
+
+}
+
+.notdrilledhead
+{
+    background: #e0e0e0 url("/tinybi/static/images/tree_img/plus.gif") no-repeat top left;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding-left: 15px;
+    font-family:"Trebuchet MS";
+
+}
+
+/*sortable formatting*/
+   .rel {POSITION: relative; width:100%;}
+   .abs {POSITION: absolute; width:100%;}
+   .right { text-align:right; }
+   .left { text-align:left; }
+   .center { text-align:center; }
+
+   .valigntop{vertical-align: top}
+
+/*context menu*/
+
+.cmenu
+{
+    margin: 0;
+    padding: 0.3em;
+    list-style-type: none;
+    background-color: #e3e3e3;
+}
+
+.cmenu li:hover
+{
+}
+
+.cmenu hr
+{
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin: 3px 0px 3px 0px;
+    width: 10em;
+}
+
+.cmenu div
+{
+    background-color : ;
+    width: 100%;
+}
+
+.cmenu div:hover
+{
+    background-color: #F9F6DD;
+    width: 100%;
+}
+
+.cmenu .topSep
+{
+    font-size: 90%;
+    border-top: 1px solid gray;
+    margin-top: 0.3em;
+    padding-top: 0.3em;
+}
+
+.addnew
+{
+    padding-left: 17px;
+    padding-right : 2px;
+    padding-bottom: 2px;
+    background: url("/tinybi/static/images/tree_img/gtknew.png") no-repeat center  left;
+    vertical-align:  middle;
+    color : red;
+}
+
+.resizegrip
+{
+    width:2px;
+    cursor: ew-resize;
+}
+
+.actiontd
+{
+    background : #DADADA url(/static/images/sidebar_button_bg.png) no-repeat scroll 0% 0%;
+    font-family:Verdana,Arial,sans-serif;
+    font-size:11px;
+    height:25px;
+    border-top : 1px solid white;
+    border-left : 1px solid white;
+    border-right : 1px solid gray;
+    border-bottom : 1px solid gray;
+    vertical-align:middle;
+}
+
+.actiontd:hover
+{
+    background : #DADADA url(/static/images/sidebar_button_bg.png) no-repeat scroll 0% 100%;
+    font-family:Verdana,Arial,sans-serif;
+    font-size:11px;
+    height:25px;
+    border-top : 1px solid gray;
+    border-left : 1px solid gray;
+    border-right : 1px solid white;
+    border-bottom : 1px solid white;
+    vertical-align:middle;
+    color : #902D2D;
+}
+
+.actionsubdiv
+{
+    cursor:pointer;
+    font-weight:bold;
+    padding-left:9px;
+    padding-top:6px;
+    vertical-align:middle
+}
+
+#biLayer
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 199;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.3;
+}
+
+#biBox
+{
+    position: absolute;
+    z-index: 200;
+    background-color: white;
+    border: 2px solid #696969;
+}
+
+#calInfoBox .Graph
+{
+    position: absolute;
+    border-top: 2px solid #696969;
+}
+
+#calInfoBox .biTitle
+{
+    background-color: #696969;
+    color: white;
+    font-weight: bold;
+}
+
+img.bi_toolbar
+{
+    border: 1px solid #696969;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.row_style
+{
+ background:#E0E0E0 none repeat scroll 0 0;
+ border-top:1px solid #b6b6b6;
+ border-right:1px solid #b6b6b6;
+ clear:both;
+/* padding:2px 0.7em;*/
+ vertical-align:middle;
+ font-family:"Trebuchet MS";
+ font-weight: bold;
+  
+ }
+ 
+ .cross_row_style
+{
+ background:#E0E0E0 none repeat scroll 0 0;
+ border-top:1px solid #b6b6b6;
+ clear:both;
+/* padding:2px 0.7em;*/
+ vertical-align:middle;
+ font-family:"Trebuchet MS";
+ font-weight: bold;
+  
+ }
+
+.row_style_child
+{
+ background:#E0E0E0 none repeat scroll 0 0;
+ border-top:1px solid #d6d6d6;
+ border-right:1px solid #b6b6b6;
+ clear:both;
+/* padding:2px 0.7em;*/
+ vertical-align:middle;
+ font-family:"Trebuchet MS";
+ font-weight: bold; 
+ }
+
+.column_style
+{
+ background:#e0e0e0 none repeat scroll 0 0;
+ border-left:1px solid #b6b6b6;
+ border-top: 1px solid #b6b6b6;
+ clear:both;
+/* padding:0.5px 0.7em;*/
+ vertical-align:top;
+ font-family:"Trebuchet MS"; 
+ font-weight: bold;
+ }
+
+.column_style_child
+{
+ background:#e0e0e0 none repeat scroll 0 0;
+ border-left:1px solid #d6d6d6;
+ clear:both;
+/* padding-left:0.5px 0.7em;*/
+ vertical-align:top;
+ font-family:"Trebuchet MS"; 
+ }
+
+.page_style
+{
+ background:#C8C2A7 none repeat scroll 0 0;
+ border:1px solid #b6b6b6;
+ border-right:0px None;
+ clear:both;
+/* padding:0.5px 0.7em;*/
+ vertical-align:top;
+ font-weight: bold;
+ font-family:"Trebuchet MS"; 
+ }
+
+.page_axis_style
+{
+ clear:both;
+ padding:1px 1em 2px 1em;
+ font-weight: bold;
+ font-size: 13px;
+ font-family:"Trebuchet MS"; 
+ cursor: pointer;
+ }
+
+table.stats tr : hover
+{
+    background-color:red;
+}
+
+table.stats tr:hover
+{
+    color:#6495ED;
+}
+
+.drop_hint
+{
+    background: #BCEE68;
+    color: #BCEE68;
+    border:1px solid #6E8B3D;
+    width:20px;
+    height:20px;
+}
+
+.main_td
+{
+    color: darkBlue; 
+    font-weight: bold; 
+    text-align: top left;
+    font-family:"Trebuchet MS";
+    font-size:15px;
+}
+
+.filter_cross
+{
+    background-color:#E6E6E6;
+    border:1px solid #838B8B;
+    font-family:"Trebuchet MS";
+
+}
